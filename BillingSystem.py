@@ -11,14 +11,10 @@ print("|---------------------------|\n"
 order_count = 0
 total_money = 0
 Tip = 0
-Discount = 0
-try:
-    Name = str(input("Enter Your Name:- "))
-    Name.isalpha(Taha)
-except Exception as e:
-    print("Enter Letters", e)
-
+Discount = 0   
 order_number = random.randrange(1, 350)
+Name = str(input("Enter Your Name:- "))
+
 try:
     while order_count < 3:
         order = int(input("Choose any two from the menu.\n"
